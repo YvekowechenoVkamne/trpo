@@ -11,19 +11,20 @@ float string_into_digit(char* c)
     return b;
 }
 
-/*char *write_in_array(void){
+char* write_in_array(void)
+{
     FILE* in = fopen("dictionary.txt", "r");
-        char** str = (char**)malloc(sizeof(char*));
-        int n = 0;
-        for (int x = 0; x < 4; x++) {
+    char** str = (char**)malloc(sizeof(char*));
+    int n = 0;
+    for (int x = 0; x < 4; x++) {
         str[n] = (char*)malloc(sizeof(char) * 256);
         fgets(str[n], 256, in);
         n++;
         str = (char**)realloc(str, sizeof(char*) * (n + 1));
-        }
-        fclose(in);
-        return *str;
-} */
+    }
+    fclose(in);
+    return *str;
+}
 
 list* list_createnode(char* key, float value, int mnts, int gig)
 {

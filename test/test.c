@@ -1,8 +1,8 @@
-#include <ctest.h>
+#include <ctest/ctest.h>
 #include <funcs/funcs.h>
 #include <stdlib.h>
 
-CTEST(string_into_digit, correctrly_str_to_digit)
+CTEST(string_into_digit, test1)
 {
     char* ch = "123321";
     float exp_digit = 123321;

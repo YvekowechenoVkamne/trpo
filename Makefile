@@ -3,8 +3,8 @@ LIB_NAME = funcs
 TEST_NAME = test
 DEBUG = -g -O0
 
-CFLAGS = -Wall -Wextra -Werror
-CPPFLAGS = -I src -I testparty -MP -MMD
+CFLAGS = -Wall -Wextra
+CPPFLAGS = -I src -I testparty -MP -MMD -Werror
 
 BIN_DIR = bin
 OBJ_DIR = obj
