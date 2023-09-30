@@ -1,0 +1,3 @@
+[submodule "testparty/ctest"]
+	path = testparty/ctest
+	url = git@github.com:bvdberg/ctest.git
