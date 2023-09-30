@@ -10,8 +10,9 @@ int main(int argc, const char** argv)
 
 #include <stdio.h>
 
-int main(int argc, const char *argv[])
+int main(int argc, const char* argv[])
 {
+    argc++;
     while (*++argv)
         puts(*argv);
     return 0;
