@@ -1,3 +1,0 @@
-[submodule "testparty/ctest"]
-	path = testparty/ctest
-	url = https://github.com/bvdberg/ctest.git
