@@ -1,4 +1,4 @@
-#include <testparty1/ctest.h>
+#include <testparty/ctest.h>
 #include <funcs/funcs.h>
 #include <stdlib.h>
 
